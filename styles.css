@@ -3,8 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #242424;
+}
+
 
 div {
-    color: white;
-    background-color: blue;
+    color: #000;
+}
+h1 {
+    color: #FFF;
+    text-align: center;
 }
